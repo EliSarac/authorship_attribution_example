@@ -17,7 +17,7 @@ Options:
 import sys
 import os
 import math
-from utils import process_document_words, process_document_ngrams, get_documents, extract_vocab, top_cond_probs_by_author
+from src.authorship_attribution.utils import process_document_words, process_document_ngrams, get_documents, extract_vocab, top_cond_probs_by_author
 from docopt import docopt
 
 
