@@ -4,6 +4,10 @@ This repository is forked from [ml-for-nlp/authorship-attribution](https://githu
 
 The original code has been restructured following Python best practices (src layout, uv, pyproject.toml). The exercises and write-up from the original tutorial are completed in [report.md](report.md).
 
+## What is authorship attribution
+
+Authorship attribution is the task of identifying who wrote a given text based on linguistic patterns alone. Every writer has a measurable stylistic fingerprint — characteristic vocabulary, sentence length, punctuation habits, and preferred function words — that tends to remain stable across their works. Statistical and machine-learning models exploit these patterns to assign an anonymous or disputed text to a known author.
+
 ## What this project does
 
 A Naive Bayes text classifier that identifies the likely author of an unknown text. The classifier is trained on one work per author (Austen, Carroll, Grahame, Shelley) and classifies a test document by computing the highest log-probability score across all classes.
