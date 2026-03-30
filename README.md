@@ -16,11 +16,9 @@ authorship_attribution_example/
 │   └── authorship_attribution/
 │       ├── __init__.py
 │       └── utils.py          # feature extraction and document loading
-├── tests/
-│   └── __init__.py
 ├── data/
-│   ├── training/             # one .txt file per training document
-│   └── test/                 # documents to classify
+│   ├── training/             
+│   └── test/                 
 ├── attribution.py            # CLI entry point
 ├── requirements.txt
 └── pyproject.toml
@@ -52,13 +50,13 @@ pip install -r requirements.txt
 Classify a test document using word unigrams:
 
 ```bash
-python attribution.py --words data/test/emma.txt
+uv run attribution.py --words data/test/emma.txt
 ```
 
 Classify using character n-grams of length 3:
 
 ```bash
-python attribution.py --chars=3 data/test/emma.txt
+uv run attribution.py --chars=3 data/test/emma.txt
 ```
 
 The script prints the prior probability for each training class, then ranks all classes by their log-likelihood score for the test document.

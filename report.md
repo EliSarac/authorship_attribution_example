@@ -46,8 +46,8 @@ All experiments were run with the default smoothing parameter `alpha = 0.1`.
 The command pattern used:
 
 ```bash
-uv run python attribution.py --words data/test/<file>
-uv run python attribution.py --chars=<n> data/test/<file>
+uv run attribution.py --words data/test/<file>
+uv run attribution.py --chars=<n> data/test/<file>
 ```
 
 Parameters varied:
