@@ -2,7 +2,7 @@
 
 This repository is forked from [ml-for-nlp/authorship-attribution](https://github.com/ml-for-nlp/authorship-attribution) as part of a practical tutorial on the Naive Bayes algorithm applied to authorship attribution.
 
-The original code has been restructured following Python best practices (src layout, uv, pyproject.toml). The exercises and write-up from the original tutorial are completed in [report.md](report.md).
+The original code has been restructured (src layout, uv, pyproject.toml). The exercises and write-up from the original tutorial are completed and experimental results are mentioned in [report.md](report.md). Please refer there to see the work done.
 
 ## What is authorship attribution
 
